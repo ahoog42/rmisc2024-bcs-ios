@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453708D42C0CAA9800E1AAF5 /* rmisc2024_bcs_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453708D32C0CAA9800E1AAF5 /* rmisc2024_bcs_iosApp.swift */; };
+		453708D62C0CAA9800E1AAF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453708D52C0CAA9800E1AAF5 /* ContentView.swift */; };
+		453708D82C0CAA9900E1AAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453708D72C0CAA9900E1AAF5 /* Assets.xcassets */; };
+		453708DB2C0CAA9900E1AAF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453708DA2C0CAA9900E1AAF5 /* Preview Assets.xcassets */; };
+		453708E52C0CAA9900E1AAF5 /* rmisc2024_bcs_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453708E42C0CAA9900E1AAF5 /* rmisc2024_bcs_iosTests.swift */; };
+		453708EF2C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453708EE2C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITests.swift */; };
+		453708F12C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453708F02C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		453708E12C0CAA9900E1AAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453708C82C0CAA9800E1AAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 453708CF2C0CAA9800E1AAF5;
+			remoteInfo = "rmisc2024-bcs-ios";
+		};
+		453708EB2C0CAA9900E1AAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453708C82C0CAA9800E1AAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 453708CF2C0CAA9800E1AAF5;
+			remoteInfo = "rmisc2024-bcs-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		453708D02C0CAA9800E1AAF5 /* rmisc2024-bcs-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rmisc2024-bcs-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		453708D32C0CAA9800E1AAF5 /* rmisc2024_bcs_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rmisc2024_bcs_iosApp.swift; sourceTree = "<group>"; };
+		453708D52C0CAA9800E1AAF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		453708D72C0CAA9900E1AAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		453708DA2C0CAA9900E1AAF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		453708E02C0CAA9900E1AAF5 /* rmisc2024-bcs-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rmisc2024-bcs-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		453708E42C0CAA9900E1AAF5 /* rmisc2024_bcs_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rmisc2024_bcs_iosTests.swift; sourceTree = "<group>"; };
+		453708EA2C0CAA9900E1AAF5 /* rmisc2024-bcs-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rmisc2024-bcs-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		453708EE2C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rmisc2024_bcs_iosUITests.swift; sourceTree = "<group>"; };
+		453708F02C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rmisc2024_bcs_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		453708CD2C0CAA9800E1AAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453708DD2C0CAA9900E1AAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453708E72C0CAA9900E1AAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		453708C72C0CAA9800E1AAF5 = {
+			isa = PBXGroup;
+			children = (
+				453708D22C0CAA9800E1AAF5 /* rmisc2024-bcs-ios */,
+				453708E32C0CAA9900E1AAF5 /* rmisc2024-bcs-iosTests */,
+				453708ED2C0CAA9900E1AAF5 /* rmisc2024-bcs-iosUITests */,
+				453708D12C0CAA9800E1AAF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		453708D12C0CAA9800E1AAF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				453708D02C0CAA9800E1AAF5 /* rmisc2024-bcs-ios.app */,
+				453708E02C0CAA9900E1AAF5 /* rmisc2024-bcs-iosTests.xctest */,
+				453708EA2C0CAA9900E1AAF5 /* rmisc2024-bcs-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		453708D22C0CAA9800E1AAF5 /* rmisc2024-bcs-ios */ = {
+			isa = PBXGroup;
+			children = (
+				453708D32C0CAA9800E1AAF5 /* rmisc2024_bcs_iosApp.swift */,
+				453708D52C0CAA9800E1AAF5 /* ContentView.swift */,
+				453708D72C0CAA9900E1AAF5 /* Assets.xcassets */,
+				453708D92C0CAA9900E1AAF5 /* Preview Content */,
+			);
+			path = "rmisc2024-bcs-ios";
+			sourceTree = "<group>";
+		};
+		453708D92C0CAA9900E1AAF5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				453708DA2C0CAA9900E1AAF5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		453708E32C0CAA9900E1AAF5 /* rmisc2024-bcs-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				453708E42C0CAA9900E1AAF5 /* rmisc2024_bcs_iosTests.swift */,
+			);
+			path = "rmisc2024-bcs-iosTests";
+			sourceTree = "<group>";
+		};
+		453708ED2C0CAA9900E1AAF5 /* rmisc2024-bcs-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				453708EE2C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITests.swift */,
+				453708F02C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITestsLaunchTests.swift */,
+			);
+			path = "rmisc2024-bcs-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		453708CF2C0CAA9800E1AAF5 /* rmisc2024-bcs-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453708F42C0CAA9900E1AAF5 /* Build configuration list for PBXNativeTarget "rmisc2024-bcs-ios" */;
+			buildPhases = (
+				453708CC2C0CAA9800E1AAF5 /* Sources */,
+				453708CD2C0CAA9800E1AAF5 /* Frameworks */,
+				453708CE2C0CAA9800E1AAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rmisc2024-bcs-ios";
+			productName = "rmisc2024-bcs-ios";
+			productReference = 453708D02C0CAA9800E1AAF5 /* rmisc2024-bcs-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		453708DF2C0CAA9900E1AAF5 /* rmisc2024-bcs-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453708F72C0CAA9900E1AAF5 /* Build configuration list for PBXNativeTarget "rmisc2024-bcs-iosTests" */;
+			buildPhases = (
+				453708DC2C0CAA9900E1AAF5 /* Sources */,
+				453708DD2C0CAA9900E1AAF5 /* Frameworks */,
+				453708DE2C0CAA9900E1AAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				453708E22C0CAA9900E1AAF5 /* PBXTargetDependency */,
+			);
+			name = "rmisc2024-bcs-iosTests";
+			productName = "rmisc2024-bcs-iosTests";
+			productReference = 453708E02C0CAA9900E1AAF5 /* rmisc2024-bcs-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		453708E92C0CAA9900E1AAF5 /* rmisc2024-bcs-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453708FA2C0CAA9900E1AAF5 /* Build configuration list for PBXNativeTarget "rmisc2024-bcs-iosUITests" */;
+			buildPhases = (
+				453708E62C0CAA9900E1AAF5 /* Sources */,
+				453708E72C0CAA9900E1AAF5 /* Frameworks */,
+				453708E82C0CAA9900E1AAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				453708EC2C0CAA9900E1AAF5 /* PBXTargetDependency */,
+			);
+			name = "rmisc2024-bcs-iosUITests";
+			productName = "rmisc2024-bcs-iosUITests";
+			productReference = 453708EA2C0CAA9900E1AAF5 /* rmisc2024-bcs-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		453708C82C0CAA9800E1AAF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					453708CF2C0CAA9800E1AAF5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					453708DF2C0CAA9900E1AAF5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 453708CF2C0CAA9800E1AAF5;
+					};
+					453708E92C0CAA9900E1AAF5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 453708CF2C0CAA9800E1AAF5;
+					};
+				};
+			};
+			buildConfigurationList = 453708CB2C0CAA9800E1AAF5 /* Build configuration list for PBXProject "rmisc2024-bcs-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 453708C72C0CAA9800E1AAF5;
+			productRefGroup = 453708D12C0CAA9800E1AAF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				453708CF2C0CAA9800E1AAF5 /* rmisc2024-bcs-ios */,
+				453708DF2C0CAA9900E1AAF5 /* rmisc2024-bcs-iosTests */,
+				453708E92C0CAA9900E1AAF5 /* rmisc2024-bcs-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		453708CE2C0CAA9800E1AAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453708DB2C0CAA9900E1AAF5 /* Preview Assets.xcassets in Resources */,
+				453708D82C0CAA9900E1AAF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453708DE2C0CAA9900E1AAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453708E82C0CAA9900E1AAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		453708CC2C0CAA9800E1AAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453708D62C0CAA9800E1AAF5 /* ContentView.swift in Sources */,
+				453708D42C0CAA9800E1AAF5 /* rmisc2024_bcs_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453708DC2C0CAA9900E1AAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453708E52C0CAA9900E1AAF5 /* rmisc2024_bcs_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453708E62C0CAA9900E1AAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453708F12C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITestsLaunchTests.swift in Sources */,
+				453708EF2C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		453708E22C0CAA9900E1AAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 453708CF2C0CAA9800E1AAF5 /* rmisc2024-bcs-ios */;
+			targetProxy = 453708E12C0CAA9900E1AAF5 /* PBXContainerItemProxy */;
+		};
+		453708EC2C0CAA9900E1AAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 453708CF2C0CAA9800E1AAF5 /* rmisc2024-bcs-ios */;
+			targetProxy = 453708EB2C0CAA9900E1AAF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		453708F22C0CAA9900E1AAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		453708F32C0CAA9900E1AAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		453708F52C0CAA9900E1AAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rmisc2024-bcs-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = XW66E6M5N4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewhoog.rmisc2024-bcs-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		453708F62C0CAA9900E1AAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rmisc2024-bcs-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = XW66E6M5N4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewhoog.rmisc2024-bcs-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		453708F82C0CAA9900E1AAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XW66E6M5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewhoog.rmisc2024-bcs-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rmisc2024-bcs-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rmisc2024-bcs-ios";
+			};
+			name = Debug;
+		};
+		453708F92C0CAA9900E1AAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XW66E6M5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewhoog.rmisc2024-bcs-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rmisc2024-bcs-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rmisc2024-bcs-ios";
+			};
+			name = Release;
+		};
+		453708FB2C0CAA9900E1AAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XW66E6M5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewhoog.rmisc2024-bcs-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "rmisc2024-bcs-ios";
+			};
+			name = Debug;
+		};
+		453708FC2C0CAA9900E1AAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XW66E6M5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewhoog.rmisc2024-bcs-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "rmisc2024-bcs-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		453708CB2C0CAA9800E1AAF5 /* Build configuration list for PBXProject "rmisc2024-bcs-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453708F22C0CAA9900E1AAF5 /* Debug */,
+				453708F32C0CAA9900E1AAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453708F42C0CAA9900E1AAF5 /* Build configuration list for PBXNativeTarget "rmisc2024-bcs-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453708F52C0CAA9900E1AAF5 /* Debug */,
+				453708F62C0CAA9900E1AAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453708F72C0CAA9900E1AAF5 /* Build configuration list for PBXNativeTarget "rmisc2024-bcs-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453708F82C0CAA9900E1AAF5 /* Debug */,
+				453708F92C0CAA9900E1AAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453708FA2C0CAA9900E1AAF5 /* Build configuration list for PBXNativeTarget "rmisc2024-bcs-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453708FB2C0CAA9900E1AAF5 /* Debug */,
+				453708FC2C0CAA9900E1AAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 453708C82C0CAA9800E1AAF5 /* Project object */;
+}
