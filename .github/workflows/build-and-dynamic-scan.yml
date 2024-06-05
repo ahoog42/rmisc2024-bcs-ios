@@ -124,7 +124,7 @@ jobs:
           app_file: ${{ env.FILENAME }}.ipa
           # TODO: Replace the Group ID.
           group_id: ${{ env.GROUP_ID }}
-          analysis_type: "dynamic"
+          analysis_type: "full"
 
   process:
     if: ${{ needs.scan.outputs.report_id }}
