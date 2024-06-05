@@ -1,4 +1,4 @@
-name: "Build and static binary scan"
+name: "Build and dynamic scan"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
