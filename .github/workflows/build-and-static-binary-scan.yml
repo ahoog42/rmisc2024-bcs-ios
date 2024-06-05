@@ -114,7 +114,7 @@ jobs:
 
       - id: upload
         name: NowSecure upload app
-        uses: nowsecure/nowsecure-action/upload-app
+        uses: nowsecure/nowsecure-action/upload-app@v4
         with:
           platform_token: ${{ secrets.NS_TOKEN }}
           # TODO: Replace application path.
