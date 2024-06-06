@@ -14,8 +14,8 @@
 		453708E52C0CAA9900E1AAF5 /* rmisc2024_bcs_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453708E42C0CAA9900E1AAF5 /* rmisc2024_bcs_iosTests.swift */; };
 		453708EF2C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453708EE2C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITests.swift */; };
 		453708F12C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453708F02C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITestsLaunchTests.swift */; };
-		45EADEBF2C120D8200D59165 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EADEBE2C120D8200D59165 /* Home.swift */; };
-		45EADEC12C120D9A00D59165 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EADEC02C120D9A00D59165 /* Account.swift */; };
+		45EADEBF2C120D8200D59165 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EADEBE2C120D8200D59165 /* HomeView.swift */; };
+		45EADEC12C120D9A00D59165 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EADEC02C120D9A00D59165 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,8 @@
 		453708EA2C0CAA9900E1AAF5 /* rmisc2024-bcs-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rmisc2024-bcs-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		453708EE2C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rmisc2024_bcs_iosUITests.swift; sourceTree = "<group>"; };
 		453708F02C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rmisc2024_bcs_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		45EADEBE2C120D8200D59165 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		45EADEC02C120D9A00D59165 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		45EADEBE2C120D8200D59165 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		45EADEC02C120D9A00D59165 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +151,8 @@
 		45EADEBD2C120C3C00D59165 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				45EADEBE2C120D8200D59165 /* Home.swift */,
-				45EADEC02C120D9A00D59165 /* Account.swift */,
+				45EADEBE2C120D8200D59165 /* HomeView.swift */,
+				45EADEC02C120D9A00D59165 /* AccountView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -288,8 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				453708D62C0CAA9800E1AAF5 /* ContentView.swift in Sources */,
-				45EADEC12C120D9A00D59165 /* Account.swift in Sources */,
-				45EADEBF2C120D8200D59165 /* Home.swift in Sources */,
+				45EADEC12C120D9A00D59165 /* AccountView.swift in Sources */,
+				45EADEBF2C120D8200D59165 /* HomeView.swift in Sources */,
 				453708D42C0CAA9800E1AAF5 /* rmisc2024_bcs_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
