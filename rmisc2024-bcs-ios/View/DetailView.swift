@@ -6,13 +6,15 @@
 //
 
 import SwiftUI
+import WebKit // Import the WebKit module
 
 struct DetailView: View {
+    let url: String
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        WebView(url: url)
     }
 }
-
 #Preview {
-    DetailView()
+    DetailView(url: "https://www.board-cybersecurity.com/annual-reports/tracker/20240610-netapp-inc-cybersecurity-10k/")
 }
