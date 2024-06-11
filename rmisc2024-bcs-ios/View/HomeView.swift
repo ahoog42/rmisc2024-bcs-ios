@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct HomeView: View {
+    @StateObject var tenkModelView = TenKModelView()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, RMISC 2024!"/*@END_MENU_TOKEN@*/)
+        // display the most recent 10-K Cybersecurity filings
+        // in a list view which will link out to the Board Cybersecurity post
+        ScrollView {            
+            LazyVStack {
+                ForEach(tenkModelView.tenks) { tenk in
+                    NavigationLink(destination: DetailView(url: tenk.url)) {
+                        VStack(alignment: .leading) {
+                            Text(tenk.company_name)
+                                .font(.headline)
+                            Text(tenk.filed_at)
+                                .font(.subheadline)
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
