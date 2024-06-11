@@ -16,6 +16,10 @@
 		453708F12C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453708F02C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITestsLaunchTests.swift */; };
 		45EADEBF2C120D8200D59165 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EADEBE2C120D8200D59165 /* HomeView.swift */; };
 		45EADEC12C120D9A00D59165 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EADEC02C120D9A00D59165 /* AccountView.swift */; };
+		45EADEC32C187C1600D59165 /* tenk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EADEC22C187C1600D59165 /* tenk.swift */; };
+		45EADEC52C187C2300D59165 /* tenkModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EADEC42C187C2300D59165 /* tenkModelView.swift */; };
+		45EADEC72C18B23800D59165 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EADEC62C18B23800D59165 /* DetailView.swift */; };
+		45EADEC92C18FCF000D59165 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EADEC82C18FCF000D59165 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		453708F02C0CAA9900E1AAF5 /* rmisc2024_bcs_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rmisc2024_bcs_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		45EADEBE2C120D8200D59165 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		45EADEC02C120D9A00D59165 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		45EADEC22C187C1600D59165 /* tenk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tenk.swift; sourceTree = "<group>"; };
+		45EADEC42C187C2300D59165 /* tenkModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tenkModelView.swift; sourceTree = "<group>"; };
+		45EADEC62C18B23800D59165 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		45EADEC82C18FCF000D59165 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +145,7 @@
 		45EADEBB2C120C2500D59165 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				45EADEC22C187C1600D59165 /* tenk.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -144,6 +153,7 @@
 		45EADEBC2C120C2C00D59165 /* ModelView */ = {
 			isa = PBXGroup;
 			children = (
+				45EADEC42C187C2300D59165 /* tenkModelView.swift */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -153,6 +163,8 @@
 			children = (
 				45EADEBE2C120D8200D59165 /* HomeView.swift */,
 				45EADEC02C120D9A00D59165 /* AccountView.swift */,
+				45EADEC62C18B23800D59165 /* DetailView.swift */,
+				45EADEC82C18FCF000D59165 /* WebView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,9 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45EADEC52C187C2300D59165 /* tenkModelView.swift in Sources */,
+				45EADEC92C18FCF000D59165 /* WebView.swift in Sources */,
 				453708D62C0CAA9800E1AAF5 /* ContentView.swift in Sources */,
 				45EADEC12C120D9A00D59165 /* AccountView.swift in Sources */,
+				45EADEC72C18B23800D59165 /* DetailView.swift in Sources */,
 				45EADEBF2C120D8200D59165 /* HomeView.swift in Sources */,
+				45EADEC32C187C1600D59165 /* tenk.swift in Sources */,
 				453708D42C0CAA9800E1AAF5 /* rmisc2024_bcs_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
