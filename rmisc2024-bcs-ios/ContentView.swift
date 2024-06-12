@@ -21,16 +21,16 @@ struct ContentView: View {
                 HomeView()
             }
             .tabItem {
-                Image(systemName: "house")
                 Text("Home")
+                Label("Home", systemImage: "house")
             }
             
             NavigationView {
                 AccountView()
             }
             .tabItem {
-                Image(systemName: "person")
                 Text("Account")
+                Label("Account", systemImage: "person")
             }
         }
     }
