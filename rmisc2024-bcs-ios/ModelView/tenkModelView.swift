@@ -32,7 +32,10 @@ class TenKModelView: ObservableObject {
         //   }
         // the list view should display the company name and the filed_at date
         // when a user taps on a list item, they should be taken to the Board Cybersecurity post
-        let token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFob29nNDIiLCJpYXQiOjE3MTgxNDQ2MzQsImV4cCI6MTcxODIzMTAzNCwiaXNzIjoicm1pc2MyMDI0In0.QXsXugvZqTNPBBez_3Y3InUyEGCLyZmVAjytVKgTSb0"
+
+        // if the token in user defaults is nil, let's use this hardcoded token
+        // otherwise, we'll use the token from user defaults
+        let token = UserDefaults.standard.string(forKey: "token") ?? "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFob29nNDIiLCJpYXQiOjE3MTgxNDQ2MzQsImV4cCI6MTcxODIzMTAzNCwiaXNzIjoicm1pc2MyMDI0In0.QXsXugvZqTNPBBez_3Y3InUyEGCLyZmVAjytVKgTSb0"
         let url = URL(string: "https://rmisc2024.andrewhoog.com/api/v1/tenks")!
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
