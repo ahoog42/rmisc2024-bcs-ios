@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AccountView: View {
-    @State private var username: String = ""
+    @State private var username: String = UserDefaults.standard.string(forKey: "username") ?? ""
     @State private var password: String = ""
     
     var body: some View {
@@ -31,6 +31,11 @@ struct AccountView: View {
                 // if the returns any other HTTP status code besides a 200, display an alert
                 // with the error message
 
+                // let's store the username, passwork and token in UserDefaults
+                let defaults = UserDefaults.standard
+                defaults.set(self.username, forKey: "username")
+                defaults.set(self.password, forKey: "password")
+
                     let url = URL(string: "https://rmisc2024.andrewhoog.com/api/v1/login")!
                     var request = URLRequest(url: url)
                     request.httpMethod = "POST"
@@ -43,13 +48,14 @@ struct AccountView: View {
                             // handle error here
                             return
                         }
-
+                    
                         if response.statusCode == 200 {
-                            print("Login successful: \(response)")
+                            // print("Login successful: \(response)")
                             let result = try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
                             let token = result?["token"] as? String
                             // save token to keychain here
                             print("token: \(token ?? "")")
+                            defaults.set(token, forKey: "token")
                         } else {
                             // handle non-200 HTTP status code here
                             print("Login failed: \(response)")
