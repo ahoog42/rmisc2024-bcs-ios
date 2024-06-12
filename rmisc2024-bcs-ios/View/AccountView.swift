@@ -18,7 +18,9 @@ struct AccountView: View {
         Form {
             Section {
                 TextField("Username", text: $username)
+                    .accessibility(label: Text("username"))
                 SecureField("Password", text: $password)
+                    .accessibility(label: Text("password"))
             }
             
             Section {
@@ -61,6 +63,7 @@ struct AccountView: View {
                             // save token to keychain here
                             print("token: \(token ?? "")")
                             defaults.set(token, forKey: "token")
+
                         } else {
                             // handle non-200 HTTP status code here
                             print("Login failed: \(response)")

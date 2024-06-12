@@ -12,7 +12,7 @@ struct HomeView: View {
     var body: some View {
         // display the most recent 10-K Cybersecurity filings
         // in a list view which will link out to the Board Cybersecurity post
-        ScrollView {            
+        ScrollView {
             LazyVStack {
                 ForEach(tenkModelView.tenks) { tenk in
                     NavigationLink(destination: DetailView(url: tenk.url)) {
