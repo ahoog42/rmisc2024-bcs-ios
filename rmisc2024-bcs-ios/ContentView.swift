@@ -29,8 +29,8 @@ struct ContentView: View {
                 AccountView()
             }
             .tabItem {
-                Text("Account")
-                Label("Account", systemImage: "person")
+                Text("Username")
+                Label("Username", systemImage: "person")
             }
         }
     }
