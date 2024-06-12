@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CryptoKit
 
 struct AccountView: View {
     @State private var username: String = UserDefaults.standard.string(forKey: "username") ?? ""
@@ -34,7 +35,11 @@ struct AccountView: View {
                 // let's store the username, passwork and token in UserDefaults
                 let defaults = UserDefaults.standard
                 defaults.set(self.username, forKey: "username")
-                defaults.set(self.password, forKey: "password")
+                
+                let passwordData = Data(self.password.utf8)
+                let passwordHash = Insecure.MD5.hash(data: passwordData)
+                let passwordHashString = passwordHash.map { String(format: "%02hhx", $0) }.joined()
+                defaults.set(passwordHashString, forKey: "password")
 
                     let url = URL(string: "https://rmisc2024.andrewhoog.com/api/v1/login")!
                     var request = URLRequest(url: url)
